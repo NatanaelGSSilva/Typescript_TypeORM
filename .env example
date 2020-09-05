@@ -1,3 +1,10 @@
-DATABASE_URL = postgres://postgres:docker@localhost:5433/mussum
-ENTITIES = src/models/**/*.ts
-MIGRATIONS = src/database/migrations/**/*.ts
+API_PORT=3000
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=javielrezende
+DB_PASSWORD=dbpass
+DB_NAME=angeloyt
+DB_SYNC=true
+#DATABASE_URL = postgres://postgres:docker@localhost:5433/mussum
+#ENTITIES = src/models/**/*.ts
+#MIGRATIONS = src/database/migrations/**/*.ts
